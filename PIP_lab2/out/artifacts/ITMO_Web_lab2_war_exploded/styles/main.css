@@ -1,0 +1,116 @@
+body {
+
+    background-color: #dbd9db;
+}
+.header {
+    overflow: hidden;
+    background: #cbb9a5;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 120px;
+    color: white;
+    font-size: 16px;
+    margin: 0px 10px 0px;
+    float: left;
+}
+
+.main {
+    overflow: auto;
+    margin: 120px auto 0px;
+    padding: 1px 5px 1px;
+    display: block;
+    background: rgb(245, 243, 241);
+    color: #484983;
+    width: 730px;
+    height: 100%;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+}
+h1{
+    margin: 10px;
+    color: #484983;
+    font-size: 22px;
+}
+h2 {
+    color: #484983;
+    font-size: 100%;
+    font-style: normal;
+    font-family: sans-serif;
+    text-align: left;
+    margin: 20px 10px 5px;
+}
+
+.warn-checkbox {
+    margin: 0px 0px 0px 10px;
+    color: #95144d;
+}
+.warn-text {
+    border-color: #95144d;
+}
+
+iframe {
+    border-width: 0px;
+    width: 100%;
+    height: 270px;
+}
+
+input{
+    color: black;
+    margin: 0px 10px 3px;
+}
+
+
+
+.button.submit-button{
+    margin: 15px 5px 5px 70px;
+}
+.button.history-button{
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+#submit {
+    margin: 15px 5px 0px 70px;
+}
+
+.button-div{
+    margin: 0px 0px 0px 10px;
+}
+.main canvas {
+    float: right;
+    margin-right: 150px;
+}
+#result-table{
+    border-collapse: collapse;
+    border: 1px #34136e;
+    padding: 0;
+    font-size: 15px;
+    color: #000000;
+    margin: 0px 10px;
+}
+#result-table td, #result-table th{
+    border: solid 2px #34136e;
+    text-align: center;
+}
+#result-table th{
+    border-bottom: 2px  #34136e;
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+.button {
+
+    color: black;
+    border-color: #836582;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#8b688a), to(#836582));
+}
+
+.button.in-button{
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
